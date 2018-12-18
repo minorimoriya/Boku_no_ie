@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//tesuto
+
 public class Player : MonoBehaviour {
 	public bool hasKey = false ;  // 鍵をゲットしたフラグ
 	public GameObject keyImage;
