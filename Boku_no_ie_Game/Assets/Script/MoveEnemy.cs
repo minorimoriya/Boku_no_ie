@@ -36,10 +36,6 @@ public class MoveEnemy : MonoBehaviour {
 
 		StartCoroutine ("setRundomTimeAndDirection");
 
-       
-
-       
-
 	}
 
 
@@ -49,11 +45,14 @@ public class MoveEnemy : MonoBehaviour {
         {
             oikakeru();
         }
+
 	}
 
     void oikakeru(){
         Vector3 diff = player.transform.position - gameObject.transform.position;
-        if (diff.magnitude < chase)
+
+
+        if (diff.magnitude < chase && GlobalParameters.black == false )
         {
             Vector2 v;
             v.x = diff.x;
@@ -93,6 +92,7 @@ public class MoveEnemy : MonoBehaviour {
                 Debug.Log("left");
             }
         }
+
         else
         {
             if (randomMove)

@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scene/hajime.unity
     guid: 49d28cf7a14ce41388adb2ae16592735
   - enabled: 1
+    path: Assets/Scene/Douga.unity
+    guid: cb6e726c4e520416a890350e34d83745
+  - enabled: 1
     path: Assets/Scene/Boku_hajime.unity
     guid: 05192fc1aacfc437d9889360685da485
   - enabled: 1

@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db38bbfa62b9b4c2292ca2c45dfe21aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenename: Boku_hajime
+  scenename: Douga
   clearPlayerPref: 0
   FadeTime: 1.5
 --- !u!82 &379157148
@@ -558,6 +558,7 @@ MonoBehaviour:
   NoExitSound: {fileID: 0}
   EncountSound: {fileID: 0}
   WalkSound: {fileID: 0}
+  batAnim: {fileID: 0}
   speechObject: {fileID: 0}
 --- !u!61 &656577473
 BoxCollider2D:

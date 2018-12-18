@@ -132,6 +132,8 @@ public class Player : MonoBehaviour {
 		black.SetActive(false);
 		spot.SetActive(true);
 		spotMode = true;
+        GlobalParameters.black = false;
+
 	}
 
 	public void spotLightOff(){
